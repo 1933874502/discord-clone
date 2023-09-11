@@ -65,7 +65,8 @@ export const useChatSocket = ({
         }
 
         const newData = [...oldData.pages];
-
+        // console.log('message',message)
+        // console.log('oldData',oldData)
         newData[0] = {
           ...newData[0],
           items: [
@@ -73,7 +74,7 @@ export const useChatSocket = ({
             ...newData[0].items,
           ]
         };
-
+        // console.log('newData2',newData)
         return {
           ...oldData,
           pages: newData,

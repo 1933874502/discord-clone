@@ -8,11 +8,28 @@ const nextConfig = {
 
     return config;
   },
+  // images: {
+  //   domains: [
+  //     "uploadthing.com"
+  //   ]
+  // }
   images: {
     domains: [
-      "uploadthing.com"
+      "uploadthing.com",
+      "utfs.io"
     ]
   }
+  // images: {
+  //   remotePatterns: [
+  //     {
+  //       protocol: 'http',
+  //       hostname: 'www.uploadthing.com',
+  //       // You can add these as well
+  //       // port: '',
+  //       // pathname: 'arifscloud/image/upload/**',
+  //     },
+  //   ],
+  // },
 }
 
 module.exports = nextConfig
